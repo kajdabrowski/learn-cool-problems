@@ -3,9 +3,7 @@
 // eg. [1, 2, 3, 4, 5] -> [2, 4]
 
 export const even = (xs) => {
-	// Your code here...
-	return []
-
+	return xs.filter(x => x % 2 == 0)
 }
 
 const tests = [
